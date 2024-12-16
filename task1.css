@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.main{
+    height: 100vh;
+display: grid;
+gap: 5px;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: 50px auto 50px;
+grid-template-areas:
+"nav nav nav nav nav nav nav   "
+"a a a c c c c"
+"a a a c c c c"
+"b b b c c c c"
+"b b b d d d d"
+"e e e e e f f"
+"foot foot foot foot foot foot foot";
+
+}
+nav{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    grid-area: nav;
+    background-color: rgb(167, 255, 16);
+}
+.Section-2{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    grid-area: a;
+    background-color: rgb(192, 152, 229);
+}
+.Section-3{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    grid-area: b;
+    background-color: green;
+}
+.Main-content{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    grid-area: c;
+background-color: rgb(138, 103, 38);
+}
+.Extra-content{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    grid-area: d;
+    background-color: rgb(136, 155, 144);
+}
+.Related-Images{
+    color: white;
+    padding: 10px;
+    text-align: center;
+background-color: rgb(94, 94, 240);
+ grid-area: e;
+}
+.Related-Post{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: brown;
+    grid-area: f;
+}
+footer{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    grid-area: foot;
+    background-color: blue;
+}
+Collapse
+image1.css
+2 KB
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link  rel="stylesheet" href="image1.css"></Link>
+</head>
+<body>
+    <div class="main">
+    <nav>Section 1</nav>
+    <div class="Section-2">Section 2</div>
+    <div class="Section-3">Section 3</div>
+    <div class="Main-content">Main <br></div>
+    <div class="Extra-content">Extra content</div>
+    <div class="Related-Images">Related Images</div>
+    <div class="Related-Post">Related Post</div>
+    <footer>Footer</footer>
+</div>
+</body>
+</html>
+Collapse
+image1.html
+1 KB
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 510px;
+    border: 1px solid #c3c3c3;
