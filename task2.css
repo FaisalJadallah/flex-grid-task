@@ -21,3 +21,5 @@ img{
     padding: 10px;
     position: relative;
     top: 20px;
+    border-radius: 100%;
+}
